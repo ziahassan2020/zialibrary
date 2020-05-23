@@ -1,6 +1,7 @@
 package com.collections;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
@@ -67,6 +68,7 @@ public class SetTest {
 		myList2.add(30);
 		myList2.add(20);
 		System.out.println("List Value = "+myList2);
+		System.out.println("Max List: "+Collections.max(myList2));
 		
 		Set<Integer> mySet2 = new HashSet<>(myList2);
 		System.out.println("Set Value without duplicate ="+mySet2);

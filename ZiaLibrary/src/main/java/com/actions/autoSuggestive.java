@@ -14,6 +14,7 @@ public class autoSuggestive {
 		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.ksrtc.in/oprs-web");
+		Thread.sleep(3000);
 		WebElement source =  driver.findElement(By.id("fromPlaceName"));
 		source.clear();
 		source.sendKeys("BENG");
@@ -28,7 +29,7 @@ public class autoSuggestive {
 		String script = "return document.getElementByxpath(\"//input[@id='fromPlaceName']\").value;";
 	//	String script = "return document.getElementById(\"fromPlaceName\").value;"; 
 		String text = (String) js.executeScript(script);
-		System.out.println(text);
+		System.out.println("TEXT IS: "+text);
 //		Boolean flag = true;
 //		while (flag) {
 //			source.sendKeys(Keys.DOWN);
