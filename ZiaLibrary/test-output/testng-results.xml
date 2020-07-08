@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2251" started-at="2020-06-28T14:25:42Z" finished-at="2020-06-28T14:25:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2251" started-at="2020-06-28T14:25:42Z" finished-at="2020-06-28T14:25:45Z">
+      <class name="com.restassured.restAssuredDemo">
+        <test-method status="PASS" signature="Test01()[pri:0, instance:com.restassured.restAssuredDemo@534df152]" name="Test01" duration-ms="1427" started-at="2020-06-28T14:25:42Z" finished-at="2020-06-28T14:25:44Z">
+        </test-method> <!-- Test01 -->
+        <test-method status="PASS" signature="Test02()[pri:0, instance:com.restassured.restAssuredDemo@534df152]" name="Test02" duration-ms="811" started-at="2020-06-28T14:25:44Z" finished-at="2020-06-28T14:25:45Z">
+        </test-method> <!-- Test02 -->
+      </class> <!-- com.restassured.restAssuredDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
