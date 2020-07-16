@@ -84,7 +84,7 @@ public class DatabaseQuery {
 		
 	}
 	public static void main(String[] args) {
-		String query = "Select * from employees";
+		String query = "Select login_name, password from employees";
 		DatabaseQuery dbquery = new DatabaseQuery();
 		Connection connection = dbquery.connectDB();
 		try {

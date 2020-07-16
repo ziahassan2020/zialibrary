@@ -12,6 +12,7 @@ public class ReverseString {
 			System.out.print(name.charAt(i));
 		}
 		System.out.println();
+		System.out.println("***********By String Buffer**********");
 		StringBuffer a = new StringBuffer(name);
 		System.out.println("String Buffer: "+a.reverse().toString());
 			

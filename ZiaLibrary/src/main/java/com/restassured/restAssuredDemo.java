@@ -16,12 +16,12 @@ public class restAssuredDemo {
 	//	RestAssured.get("https://reqres.in/api/users?page=2");
 	//	Response response = RestAssured.get("https://reqres.in/api/users?page=2");
 		Response response = get("https://reqres.in/api/users?page=2");
-		System.out.println(response.asString());
-		System.out.println(response.getBody().asString());
-		System.out.println(response.getStatusCode());
-		System.out.println(response.getStatusLine());
-		System.out.println(response.getHeader("content-type"));
-		System.out.println(response.getTime());
+		System.out.println("1. "+response.asString());
+		System.out.println("2. "+response.getBody().asString());
+		System.out.println("3. "+response.getStatusCode());
+		System.out.println("4. "+response.getStatusLine());
+		System.out.println("5. "+response.getHeader("content-type"));
+		System.out.println("6. "+response.getTime());
 		int statuscode = response.getStatusCode();
 		Assert.assertEquals(statuscode, 200);  // Failed code is 200
 	}
