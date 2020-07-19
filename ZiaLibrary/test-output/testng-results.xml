@@ -1,17 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1875" started-at="2020-07-15T18:01:54Z" finished-at="2020-07-15T18:01:56Z">
+  <suite name="Default suite" duration-ms="427" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1875" started-at="2020-07-15T18:01:54Z" finished-at="2020-07-15T18:01:56Z">
-      <class name="com.restassured.restAssuredDemo">
-        <test-method status="PASS" signature="Test01()[pri:0, instance:com.restassured.restAssuredDemo@25b485ba]" name="Test01" duration-ms="1154" started-at="2020-07-15T18:01:54Z" finished-at="2020-07-15T18:01:56Z">
-        </test-method> <!-- Test01 -->
-        <test-method status="PASS" signature="Test02()[pri:0, instance:com.restassured.restAssuredDemo@25b485ba]" name="Test02" duration-ms="709" started-at="2020-07-15T18:01:56Z" finished-at="2020-07-15T18:01:56Z">
-        </test-method> <!-- Test02 -->
-      </class> <!-- com.restassured.restAssuredDemo -->
+    <test name="Default test" duration-ms="427" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+      <class name="com.testng.DataProviderJDBC">
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="5" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[121]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adam]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fripp]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[196]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alana]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Walsh]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[147]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alberto]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Errazuriz]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[103]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexander]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hunold]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[115]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexander]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Khoo]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[185]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexis]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Bull]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[158]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Allan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[McEwen]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alyssa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hutton]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[167]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Banda]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="getData(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testng.DataProviderJDBC@5d740a0f]" name="getData" duration-ms="1" started-at="2020-07-19T00:40:40Z" finished-at="2020-07-19T00:40:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[187]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Anthony]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cabrio]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- getData -->
+      </class> <!-- com.testng.DataProviderJDBC -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
