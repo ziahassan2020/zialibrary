@@ -16,9 +16,9 @@ public class MapTest {
 		myMap.put("Fish", 4.99);
 		
 		//Advanced or enhanced for loop
-//		for(Map.Entry<String, Double> item:myMap.entrySet()) {
-//			System.out.println(item);
-//		}
+		for(Map.Entry<String, Double> item:myMap.entrySet()) {
+			System.out.println(item);
+		}
 		
 //		Fastest loop in Java (foreach loop)
 //		myMap.forEach((k,v) -> {
@@ -28,7 +28,7 @@ public class MapTest {
 //		});
 		
 		myMap.entrySet().forEach(item -> {
-			System.out.println(item);
+			System.out.println("x: "+item);
 //			System.out.println(item.getKey());
 //			System.out.println(item.getValue());
 		});
