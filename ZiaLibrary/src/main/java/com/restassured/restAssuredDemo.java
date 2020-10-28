@@ -26,12 +26,13 @@ public class restAssuredDemo {
 		Assert.assertEquals(statuscode, 200);  // Failed code is 200
 	}
 	//https://github.com/rest-assured/rest-assured/wiki/Usage
+	//BDD approach
 	@Test
 	public void Test02() {
 		given()
 			.get("https://reqres.in/api/users?page=2")
 		.then()
-		.statusCode(200)
+			.statusCode(200)
 		.body("data.id[0]", equalTo(7));   //responseAwareMatcher
 	}
 

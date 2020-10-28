@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" parallel="none">
   <test name="Default test(failed)" parallel="none" preserve-order="true">
     <classes>
-      <class name="com.testng.DataProviderJDBC">
+      <class name="com.sarower.restassured.GetResponse">
         <methods>
-          <include name="getData"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- com.testng.DataProviderJDBC -->
+      </class> <!-- com.sarower.restassured.GetResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

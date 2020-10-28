@@ -8,7 +8,7 @@ public class DynamicDropDown {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.spicejet.com");
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();

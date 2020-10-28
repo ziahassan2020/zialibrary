@@ -16,9 +16,9 @@ public class DataProviderSameClass {
 		return arr;
 	}
 //	@Test(dataProvider="Method1")
-	@Test(dataProvider="dataProviderMethod1")
-	public void test(String val1, String val2) {
-		System.out.println("Test**** "+val1+" "+val2);
+	@Test(dataProvider="dataProviderMethod3")
+	public void test(String val1, String val2, String val3) {
+		System.out.println("Test**** "+val1+" "+val2+" "+val3);
 	}
 	
 }

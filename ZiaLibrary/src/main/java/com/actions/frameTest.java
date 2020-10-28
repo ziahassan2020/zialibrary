@@ -10,7 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 public class frameTest {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://jqueryui.com/droppable/");	
 		//Determine how many frame in the application

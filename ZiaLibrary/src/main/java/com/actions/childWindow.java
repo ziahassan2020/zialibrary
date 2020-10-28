@@ -12,7 +12,7 @@ import com.google.common.base.Strings;
 public class childWindow {
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://accounts.google.com/signin");
 		System.out.println(driver.getTitle());

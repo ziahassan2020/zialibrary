@@ -15,6 +15,7 @@ public class ArrayTest {
 			int[] a = {10,20,10,30,40,20,30};
 			
 			System.out.println("Print Array: "+Arrays.toString(a));
+			
 			System.out.println("**********");
 							
 //			Arrays.sort(a);

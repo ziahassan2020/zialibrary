@@ -39,9 +39,9 @@ public class DataProviderJDBC {
 			rowCount++;
 		myData=new String[rowCount][colCount];
 		rs.beforeFirst();
-		for(int i=0; i<rowCount;i++) {
+		for(int i=0; i<rowCount;i++) { //row
 			rs.next();
-			for(int j=0;j<colCount;j++) {
+			for(int j=0;j<colCount;j++) {  // columns
 				myData[i][j]=rs.getString(j+1);
 			}			
 		}
@@ -52,7 +52,8 @@ public class DataProviderJDBC {
 	}
 	@Test(dataProvider="methodJDBC")
 	public void getData(String a, String b, String c) {
-		System.out.println("The values are: "+a+"  "+b+"    "+c);		
+		System.out.println("The values are: "+a+"  "+b+"    "+c);	
+		
 	}
 			
 

@@ -9,7 +9,7 @@ public class AlertsJavaPopups {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		String text = "Zia";
-		System.setProperty("webdriver.chrome.driver", "C:\\WebDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://rahulshettyacademy.com/AutomationPractice/");
 		driver.findElement(By.id("name")).sendKeys(text);
